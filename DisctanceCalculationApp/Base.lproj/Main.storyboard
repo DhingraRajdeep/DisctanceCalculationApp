@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Starting Position" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dKL-Bv-hVH">
+                                <rect key="frame" x="20" y="122" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Destination" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IwC-gu-BX6">
+                                <rect key="frame" x="20" y="222" width="152.5" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Second Destination" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Unc-Kz-xm8">
+                                <rect key="frame" x="20" y="286" width="169" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Third Destination" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xc2-be-TQO">
+                                <rect key="frame" x="20" y="347" width="159" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdl-Gs-dtd">
+                                <rect key="frame" x="248" y="222" width="146" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S1j-ss-EDx">
+                                <rect key="frame" x="248" y="286" width="146" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJg-Id-3Kt">
+                                <rect key="frame" x="248" y="347" width="146" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyw-qx-UOY">
+                                <rect key="frame" x="131.5" y="577" width="151" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Calculate Distance"/>
+                                <connections>
+                                    <action selector="calculatebuttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cFb-Kr-0fc"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="OwQ-1i-Uvb">
+                                <rect key="frame" x="20" y="491" width="374" height="32"/>
+                                <segments>
+                                    <segment title="Meters"/>
+                                    <segment title="Kilometers"/>
+                                    <segment title="Miles"/>
+                                </segments>
+                            </segmentedControl>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fourth Destination" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nIb-bz-ruR">
+                                <rect key="frame" x="20" y="410" width="170" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hgb-Qv-HFm">
+                                <rect key="frame" x="248" y="410" width="146" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="DJg-Id-3Kt" firstAttribute="centerX" secondItem="S1j-ss-EDx" secondAttribute="centerX" id="1gN-7O-5WJ"/>
+                            <constraint firstItem="zdl-Gs-dtd" firstAttribute="leading" secondItem="IwC-gu-BX6" secondAttribute="trailing" constant="75.5" id="2oD-AJ-oD8"/>
+                            <constraint firstItem="OwQ-1i-Uvb" firstAttribute="top" secondItem="dKL-Bv-hVH" secondAttribute="bottom" constant="335" id="B3K-fH-0Uk"/>
+                            <constraint firstItem="xc2-be-TQO" firstAttribute="top" secondItem="Unc-Kz-xm8" secondAttribute="bottom" constant="27" id="BaD-4j-KAb"/>
+                            <constraint firstItem="Hgb-Qv-HFm" firstAttribute="centerX" secondItem="S1j-ss-EDx" secondAttribute="centerX" id="FzM-AG-SQc"/>
+                            <constraint firstItem="Unc-Kz-xm8" firstAttribute="top" secondItem="IwC-gu-BX6" secondAttribute="bottom" constant="30" id="I3o-FZ-1AQ"/>
+                            <constraint firstItem="Unc-Kz-xm8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="TjO-Ce-LbO"/>
+                            <constraint firstItem="xc2-be-TQO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="UgC-ZH-E6B"/>
+                            <constraint firstItem="Hgb-Qv-HFm" firstAttribute="centerY" secondItem="nIb-bz-ruR" secondAttribute="centerY" id="Up5-ib-e9S"/>
+                            <constraint firstItem="dKL-Bv-hVH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="78" id="Vzw-G3-8OI"/>
+                            <constraint firstItem="OwQ-1i-Uvb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="YCD-8f-c3N"/>
+                            <constraint firstItem="DJg-Id-3Kt" firstAttribute="centerY" secondItem="xc2-be-TQO" secondAttribute="centerY" id="dED-2U-0G5"/>
+                            <constraint firstItem="zyw-qx-UOY" firstAttribute="top" secondItem="dKL-Bv-hVH" secondAttribute="bottom" constant="421" id="fzZ-k8-j35"/>
+                            <constraint firstItem="nIb-bz-ruR" firstAttribute="top" secondItem="xc2-be-TQO" secondAttribute="bottom" constant="29" id="lvV-d5-GXO"/>
+                            <constraint firstItem="zyw-qx-UOY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mHm-xH-xaj"/>
+                            <constraint firstItem="zdl-Gs-dtd" firstAttribute="centerY" secondItem="IwC-gu-BX6" secondAttribute="centerY" id="n0A-Hm-VtD"/>
+                            <constraint firstItem="S1j-ss-EDx" firstAttribute="centerX" secondItem="zdl-Gs-dtd" secondAttribute="centerX" id="n7Y-NB-I7q"/>
+                            <constraint firstItem="IwC-gu-BX6" firstAttribute="top" secondItem="dKL-Bv-hVH" secondAttribute="bottom" constant="66" id="nJh-Uk-FG4"/>
+                            <constraint firstItem="nIb-bz-ruR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ot4-z9-j7J"/>
+                            <constraint firstItem="dKL-Bv-hVH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="pbg-tq-f1O"/>
+                            <constraint firstItem="S1j-ss-EDx" firstAttribute="centerY" secondItem="Unc-Kz-xm8" secondAttribute="centerY" id="r1N-tE-q4T"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dKL-Bv-hVH" secondAttribute="trailing" constant="20" id="rWD-aK-pgu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OwQ-1i-Uvb" secondAttribute="trailing" constant="20" id="xzb-Ll-xgQ"/>
+                            <constraint firstItem="IwC-gu-BX6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="z9k-iM-Vu3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="calculateButton" destination="zyw-qx-UOY" id="7BJ-lU-eSN"/>
+                        <outlet property="distanceA" destination="zdl-Gs-dtd" id="ZUU-9q-Db7"/>
+                        <outlet property="distanceB" destination="S1j-ss-EDx" id="oek-HE-ELJ"/>
+                        <outlet property="distanceC" destination="DJg-Id-3Kt" id="t2j-FD-7CV"/>
+                        <outlet property="distanceD" destination="Hgb-Qv-HFm" id="v2R-jk-hSc"/>
+                        <outlet property="endLocationA" destination="IwC-gu-BX6" id="jZA-zW-Yvp"/>
+                        <outlet property="endLocationB" destination="Unc-Kz-xm8" id="XU7-9K-sXv"/>
+                        <outlet property="endLocationC" destination="xc2-be-TQO" id="mDM-8l-h2g"/>
+                        <outlet property="endLocationD" destination="nIb-bz-ruR" id="FWD-Nf-6xT"/>
+                        <outlet property="startLocation" destination="dKL-Bv-hVH" id="aua-PN-yyx"/>
+                        <outlet property="unitSelector" destination="OwQ-1i-Uvb" id="aCj-z6-hht"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="98.4375"/>
+        </scene>
+    </scenes>
+</document>

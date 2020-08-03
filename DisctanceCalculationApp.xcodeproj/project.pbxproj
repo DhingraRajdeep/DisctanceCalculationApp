@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07B5EDC224D839A0007E17A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5EDC124D839A0007E17A5 /* AppDelegate.m */; };
+		07B5EDC524D839A0007E17A5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5EDC424D839A0007E17A5 /* SceneDelegate.m */; };
+		07B5EDC824D839A0007E17A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5EDC724D839A0007E17A5 /* ViewController.m */; };
+		07B5EDCB24D839A0007E17A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B5EDC924D839A0007E17A5 /* Main.storyboard */; };
+		07B5EDCD24D839A2007E17A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B5EDCC24D839A2007E17A5 /* Assets.xcassets */; };
+		07B5EDD024D839A2007E17A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B5EDCE24D839A2007E17A5 /* LaunchScreen.storyboard */; };
+		07B5EDD324D839A2007E17A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5EDD224D839A2007E17A5 /* main.m */; };
+		1EEC57E0F6F0032A3FCB3A61 /* Pods_DisctanceCalculationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58778F0EA17CA9EA5505E992 /* Pods_DisctanceCalculationApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00BA67388EA48A4C64CFBF2D /* Pods-DisctanceCalculationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisctanceCalculationApp.release.xcconfig"; path = "Target Support Files/Pods-DisctanceCalculationApp/Pods-DisctanceCalculationApp.release.xcconfig"; sourceTree = "<group>"; };
+		07B5EDBD24D839A0007E17A5 /* DisctanceCalculationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisctanceCalculationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B5EDC024D839A0007E17A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07B5EDC124D839A0007E17A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07B5EDC324D839A0007E17A5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		07B5EDC424D839A0007E17A5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		07B5EDC624D839A0007E17A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07B5EDC724D839A0007E17A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07B5EDCA24D839A0007E17A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07B5EDCC24D839A2007E17A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07B5EDCF24D839A2007E17A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07B5EDD124D839A2007E17A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B5EDD224D839A2007E17A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58778F0EA17CA9EA5505E992 /* Pods_DisctanceCalculationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisctanceCalculationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4B0A869ECA6EDA566762D7 /* Pods-DisctanceCalculationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisctanceCalculationApp.debug.xcconfig"; path = "Target Support Files/Pods-DisctanceCalculationApp/Pods-DisctanceCalculationApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B5EDBA24D839A0007E17A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEC57E0F6F0032A3FCB3A61 /* Pods_DisctanceCalculationApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B5EDB424D839A0007E17A5 = {
+			isa = PBXGroup;
+			children = (
+				07B5EDBF24D839A0007E17A5 /* DisctanceCalculationApp */,
+				07B5EDBE24D839A0007E17A5 /* Products */,
+				6A71131FA99B4651F907CB60 /* Pods */,
+				EA5F8E2834A202E92D817F87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07B5EDBE24D839A0007E17A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B5EDBD24D839A0007E17A5 /* DisctanceCalculationApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07B5EDBF24D839A0007E17A5 /* DisctanceCalculationApp */ = {
+			isa = PBXGroup;
+			children = (
+				07B5EDC024D839A0007E17A5 /* AppDelegate.h */,
+				07B5EDC124D839A0007E17A5 /* AppDelegate.m */,
+				07B5EDC324D839A0007E17A5 /* SceneDelegate.h */,
+				07B5EDC424D839A0007E17A5 /* SceneDelegate.m */,
+				07B5EDC624D839A0007E17A5 /* ViewController.h */,
+				07B5EDC724D839A0007E17A5 /* ViewController.m */,
+				07B5EDC924D839A0007E17A5 /* Main.storyboard */,
+				07B5EDCC24D839A2007E17A5 /* Assets.xcassets */,
+				07B5EDCE24D839A2007E17A5 /* LaunchScreen.storyboard */,
+				07B5EDD124D839A2007E17A5 /* Info.plist */,
+				07B5EDD224D839A2007E17A5 /* main.m */,
+			);
+			path = DisctanceCalculationApp;
+			sourceTree = "<group>";
+		};
+		6A71131FA99B4651F907CB60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E4B0A869ECA6EDA566762D7 /* Pods-DisctanceCalculationApp.debug.xcconfig */,
+				00BA67388EA48A4C64CFBF2D /* Pods-DisctanceCalculationApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA5F8E2834A202E92D817F87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58778F0EA17CA9EA5505E992 /* Pods_DisctanceCalculationApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07B5EDBC24D839A0007E17A5 /* DisctanceCalculationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B5EDD624D839A2007E17A5 /* Build configuration list for PBXNativeTarget "DisctanceCalculationApp" */;
+			buildPhases = (
+				8264CF952CEBCCCD0C5EDF49 /* [CP] Check Pods Manifest.lock */,
+				07B5EDB924D839A0007E17A5 /* Sources */,
+				07B5EDBA24D839A0007E17A5 /* Frameworks */,
+				07B5EDBB24D839A0007E17A5 /* Resources */,
+				B9CAA0A68BE8878EBADDC2A6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisctanceCalculationApp;
+			productName = DisctanceCalculationApp;
+			productReference = 07B5EDBD24D839A0007E17A5 /* DisctanceCalculationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07B5EDB524D839A0007E17A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Rajdeep Singh Dhingra";
+				TargetAttributes = {
+					07B5EDBC24D839A0007E17A5 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 07B5EDB824D839A0007E17A5 /* Build configuration list for PBXProject "DisctanceCalculationApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07B5EDB424D839A0007E17A5;
+			productRefGroup = 07B5EDBE24D839A0007E17A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B5EDBC24D839A0007E17A5 /* DisctanceCalculationApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07B5EDBB24D839A0007E17A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B5EDD024D839A2007E17A5 /* LaunchScreen.storyboard in Resources */,
+				07B5EDCD24D839A2007E17A5 /* Assets.xcassets in Resources */,
+				07B5EDCB24D839A0007E17A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8264CF952CEBCCCD0C5EDF49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisctanceCalculationApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9CAA0A68BE8878EBADDC2A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisctanceCalculationApp/Pods-DisctanceCalculationApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisctanceCalculationApp/Pods-DisctanceCalculationApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisctanceCalculationApp/Pods-DisctanceCalculationApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B5EDB924D839A0007E17A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B5EDC824D839A0007E17A5 /* ViewController.m in Sources */,
+				07B5EDC224D839A0007E17A5 /* AppDelegate.m in Sources */,
+				07B5EDD324D839A2007E17A5 /* main.m in Sources */,
+				07B5EDC524D839A0007E17A5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07B5EDC924D839A0007E17A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B5EDCA24D839A0007E17A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07B5EDCE24D839A2007E17A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B5EDCF24D839A2007E17A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07B5EDD424D839A2007E17A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07B5EDD524D839A2007E17A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07B5EDD724D839A2007E17A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E4B0A869ECA6EDA566762D7 /* Pods-DisctanceCalculationApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DisctanceCalculationApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.DisctanceCalculationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07B5EDD824D839A2007E17A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BA67388EA48A4C64CFBF2D /* Pods-DisctanceCalculationApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DisctanceCalculationApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.DisctanceCalculationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B5EDB824D839A0007E17A5 /* Build configuration list for PBXProject "DisctanceCalculationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B5EDD424D839A2007E17A5 /* Debug */,
+				07B5EDD524D839A2007E17A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B5EDD624D839A2007E17A5 /* Build configuration list for PBXNativeTarget "DisctanceCalculationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B5EDD724D839A2007E17A5 /* Debug */,
+				07B5EDD824D839A2007E17A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07B5EDB524D839A0007E17A5 /* Project object */;
+}
